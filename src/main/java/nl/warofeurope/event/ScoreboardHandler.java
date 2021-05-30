@@ -62,18 +62,19 @@ public class ScoreboardHandler {
         NEDERLAND("&6[Ned]&r", "&6Nederland", new Location(Bukkit.getWorld("world"), -5, 67, 316, 180, 0)),
         BELGIE("&0[B&ee&4l]&r", "&0Be&elg&4ië", new Location(Bukkit.getWorld("world"), -155, 67, 280, 180, 0)),
         PORTUGAL("&2[Po&4r]&r", "&2Por&4tugal", new Location(Bukkit.getWorld("world"), -257, 68, 188, 270, 0)),
-        MALTA("&4[M&fal]&r", "&4Mal&fta", new Location(Bukkit.getWorld("world"), -300, 68, 93, 270, 0)),
+        NOORWEGEN("&4[No&9o]&r", "&4Noor&9wegen", new Location(Bukkit.getWorld("world"), -300, 68, 93, 270, 0)),
         IJSLAND("&b[IJ&fs]&r", "&bIJs&fland", new Location(Bukkit.getWorld("world"), -316, 67, -3, 270, 0)),
-        ZWEDEN("&9[Z&ewe]&r", "&9Zwe&eden", new Location(Bukkit.getWorld("world"), -281, 67, -137, 270, 0)),
+//        ZWEDEN("&9[Z&ewe]&r", "&9Zwe&eden", new Location(Bukkit.getWorld("world"), -281, 67, -137, 270, 0)),
         MONACO("&d[Mo&fn]&r", "&dMon&faco", new Location(Bukkit.getWorld("world"), -109, 69, -300, 0, 0)),
         TURKIJE("&5[Tu&fr]&r", "&5Tur&fkije", new Location(Bukkit.getWorld("world"), 59, 68, -310, 0, 0)),
         ITALIE("&2[I&ft&4a]&r", "&2It&fal&4ië", new Location(Bukkit.getWorld("world"), 200, 68, -246, 0, 0)),
         RUSLAND("&9[Ru&cs]&r", "&9Rus&cland", new Location(Bukkit.getWorld("world"), 290, 68, -135, 90, 0)),
         SPANJE("&6[S&epa]&r", "&6Spa&enje", new Location(Bukkit.getWorld("world"), 315, 67, -15, 90, 0)),
-        ZWITSERLAND("&c[Z&fwi]", "&cZ&fwit&cserland", new Location(Bukkit.getWorld("world"), 300, 67, 107, 90, 0)),
+        ZWITSERLAND("&c[Z&fwi]&r", "&cZ&fwit&cserland", new Location(Bukkit.getWorld("world"), 300, 67, 107, 90, 0)),
         ENGELAND("&f[E&4ng]&r", "&fEnge&4land", new Location(Bukkit.getWorld("world"), 230, 68, 216, 90, 0)),
         FRANKRIJK("&9[F&fr&4a]&r", "&9Fra&fnk&4rijk", new Location(Bukkit.getWorld("world"), 129, 67,290, 180, 0)),
-        FINLAND("&f[Fi&9n]&r", "&9Fin&fland", new Location(Bukkit.getWorld("world"), -210, 68, -238, 0, 0));
+        DUITSLAND("&0[D&4u&6i]&r", "&0Du&4its&6land", new Location(Bukkit.getWorld("world"), -210, 68, -238, 0, 0)),
+        OEKRAINE("&3[Oe&ek]&r", "&3Oekr&eaine&r", new Location(Bukkit.getWorld("world"), -281, 67, -137, 270, 0));
 
         private final String prefix;
         private final String display;

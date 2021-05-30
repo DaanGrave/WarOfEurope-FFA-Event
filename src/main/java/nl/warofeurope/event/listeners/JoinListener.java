@@ -52,10 +52,11 @@ public class JoinListener implements Listener {
                     if (player.hasPermission("group." + team.toString().toLowerCase(Locale.ROOT))){
                         team.teleport(player);
                         Scoreboard scoreboard = this.eventPlugin.scoreboardHandler.scoreboard;
-                        Team scoreboardTeam = scoreboard.getTeam("t-" + team.toString());
+                        Team scoreboardTeam = scoreboard.getTeam("t-" + team);
                         scoreboardTeam.addEntry(player.getName());
                         found = true;
                         team.getPlayers().add(player);
+                        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "kit event " + player.getName());
                         break;
                     }
                 }

@@ -24,9 +24,7 @@
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.4</version>
-        <configuration>
-          <outputDirectory>C:\Users\daang\Desktop\Test Servers\game-1\plugins</outputDirectory>
-        </configuration>
+        <configuration />
       </plugin>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
@@ -51,8 +49,8 @@
     </dependency>
   </dependencies>
   <properties>
-    <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
   </properties>
 </project>
 

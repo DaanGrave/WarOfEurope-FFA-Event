@@ -30,7 +30,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.4</version>
                 <configuration>
-                    <outputDirectory>C:\Users\daang\Desktop\Test Servers\game-1\plugins</outputDirectory>
+<!--                    <outputDirectory>C:\Users\daang\Desktop\Test Servers\game-1\plugins</outputDirectory>-->
                 </configuration>
             </plugin>
             <plugin>

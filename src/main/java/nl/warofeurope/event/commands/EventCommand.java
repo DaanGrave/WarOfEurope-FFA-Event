@@ -45,9 +45,6 @@ public class EventCommand extends BaseCommand {
                                 new SyncDelayedTask(20, () -> {
                                     this.eventPlugin.game.started = true;
                                     this.broadcast("&4&l[Event] &cDe Kingdom FFA is begonnen! &4&lSUCCES!");
-                                    for (Player player : Bukkit.getOnlinePlayers()){
-                                        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "kit event " + player.getName());
-                                    }
                                 });
                             });
                         });
